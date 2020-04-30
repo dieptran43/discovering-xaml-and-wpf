@@ -22,7 +22,12 @@ namespace WPFIntro
     {
         public MainWindow()
         {
+            MainWindowViewModel main = new MainWindowViewModel();
+            MainWindow window = new MainWindow();
+            window.DataContext = main;
+            window.Show();
             InitializeComponent();
+            DataContext = main;
         }
     }
 }

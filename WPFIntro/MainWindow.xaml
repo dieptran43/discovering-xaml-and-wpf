@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFIntro"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="350" Width="525">
+   
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="txtInstructions" 
+                   Text="This is View of the application." FontSize="20" Grid.Row="0"/>
+        <Grid DataContext="{StaticResource ResourceKey=viewModel}" Height="236"
+              VerticalAlignment="Top" Grid.RowSpan="3" Margin="0,54,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="44*"/>
+                <RowDefinition Height="34*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="39*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="39*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="txtFullNameDescription" Text="The field below represent the person's full name"
+                       FontSize="20" Grid.Row="0"/>
+            <TextBlock x:Name="txtPersonFullName" Text="{Binding FullName}"
+                       FontSize="20" Grid.Row="1"/>
+            <TextBlock x:Name="txtFirstNameDescription" Text="The field below represents the person's first name"
+                       FontSize="20" Grid.Row="2"/>
+            <TextBlock x:Name="txtFirstName"
+                       Text="{Binding FirstName}" FontSize="20" Grid.Row="3"/>
+            <TextBlock x:Name="txtLastNameDescription" Text="The field below represents the person's last name"
+                       FontSize="20" Grid.Row="4"/>
+            <TextBox x:Name="txtLastName"
+                     Text="{Binding LastName}" FontSize="20" Grid.Row="5"/>
+        </Grid>
     </Grid>
 </Window>
