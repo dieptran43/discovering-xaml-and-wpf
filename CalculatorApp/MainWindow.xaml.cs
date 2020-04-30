@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFIntro
+namespace CalculatorApp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,9 +22,7 @@ namespace WPFIntro
     {
         public MainWindow()
         {
-           
             InitializeComponent();
-         
         }
     }
 }
