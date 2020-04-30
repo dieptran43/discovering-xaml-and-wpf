@@ -4,9 +4,43 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatorApp"
+        xmlns:vm="clr-namespace:CalculatorApp.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="CalculatorCommandExample" Height="300" Width="300">
+    <Window.Resources>
+        <vm:CalculatorViewModel x:Key="viewModel"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource ResourceKey=viewModel}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
 
+        <TextBlock Name="AppTitle" Text="Simple Calculator" Grid.Row="0"
+        Grid.Column="0" Grid.ColumnSpan="2" />
+        <TextBlock Name="FirstNumberTitle" Text="First number"
+        Grid.Row="1" Grid.Column="0" />
+        <TextBox Name="txtFirstNumber"
+        Text="{Binding FirstNumber}" Grid.Row="1" Grid.Column="1" />
+        <TextBlock Name="SecondNumberTitle" Text="Second number"
+        Grid.Row="2" Grid.Column="0" />
+        <TextBox Name="txtSecondtNumber"
+        Text="{Binding SecondNumber}" Grid.Row="2" Grid.Column="1" />
+        <TextBlock Name="AnswerTitle" Text="Sum of two numbers:"
+        Grid.Row="3" Grid.Column="0" />
+        <TextBox Name="txtSum"
+        Text="{Binding Sum}" Grid.Row="3" Grid.Column="1" />
+
+        <Button Name="btnAddNumbers" Content="Add numbers" Grid.Row="4"
+        Grid.Column="0" Grid.ColumnSpan="2"
+        CommandParameter="{StaticResource ResourceKey=viewModel}"
+        Command="{Binding AddNumbersCommand}" />
     </Grid>
 </Window>
