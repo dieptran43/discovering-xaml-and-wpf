@@ -1,0 +1,41 @@
+﻿<Window x:Class="GirdLayout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GirdLayout"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="800">
+    <ScrollViewer>
+        
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="Blue" Foreground="White"
+               HorizontalContentAlignment="Center">Start Page</Label>
+        <GroupBox Grid.Row="1" Grid.Column="0" Background="White"
+                  Header="Recent Projects">...</GroupBox>
+        <GroupBox Grid.Row="2" Grid.Column="0" Background="White"
+                  Header="Getting Sarted">...</GroupBox>
+        <GroupBox Grid.Row="3" Grid.Column="0" Background="White"
+                  Header="Headlines">...</GroupBox>
+        <GroupBox Grid.Row="1" Grid.RowSpan="3" Grid.Column="1" Background="White"
+                  Header="Online Articles">
+            <ListBox>
+                <ListBoxItem>Articles #1</ListBoxItem>
+                <ListBoxItem>Articles #2</ListBoxItem>
+                <ListBoxItem>Articles #3</ListBoxItem>
+                <ListBoxItem>Articles #4</ListBoxItem>
+            </ListBox>
+        </GroupBox>
+    </Grid>
+    </ScrollViewer>
+</Window>

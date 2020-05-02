@@ -19,4 +19,6 @@
         <Button Canvas.Left="0" Canvas.Bottom="0"
                 Background="Magenta">Left=0, Bottom=0</Button>
     </Canvas>
+   
+    
 </Window>
