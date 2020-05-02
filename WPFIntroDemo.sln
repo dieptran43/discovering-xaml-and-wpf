@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNUnitTesting", "FirstN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorApp", "CalculatorApp\CalculatorApp.csproj", "{E7B84659-2575-4947-8C4D-8B0310AFE3BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballRosterNew", "BasketballRosterNew\BasketballRosterNew.csproj", "{F956454D-B4FA-4DFA-8F7F-126218222EF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasketballRosterNew", "BasketballRosterNew\BasketballRosterNew.csproj", "{F956454D-B4FA-4DFA-8F7F-126218222EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalTreesInterface", "LogicalTreesInterface\LogicalTreesInterface.csproj", "{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F956454D-B4FA-4DFA-8F7F-126218222EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F956454D-B4FA-4DFA-8F7F-126218222EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F956454D-B4FA-4DFA-8F7F-126218222EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
