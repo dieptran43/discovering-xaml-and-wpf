@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasketballRosterNew", "Bask
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalTreesInterface", "LogicalTreesInterface\LogicalTreesInterface.csproj", "{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AligmentOfButtons", "AligmentOfButtons\AligmentOfButtons.csproj", "{27BFD816-2C2A-416E-9F77-6066EFAE59FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BFD816-2C2A-416E-9F77-6066EFAE59FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BFD816-2C2A-416E-9F77-6066EFAE59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BFD816-2C2A-416E-9F77-6066EFAE59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BFD816-2C2A-416E-9F77-6066EFAE59FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
