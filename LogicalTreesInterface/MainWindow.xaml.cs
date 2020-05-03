@@ -30,6 +30,16 @@ namespace LogicalTreesInterface
             this.AddHandler(Button.ClickEvent, new RoutedEventHandler(Button_Click));
         }
 
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            if((e.KeyboardDevice.Modifiers & ModifierKeys.Alt) == ModifierKeys.Alt
+                && (e.Key == Key.A || e.SystemKey == Key.A))
+            {
+
+            }
+            base.OnKeyDown(e);
+        }
+
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
             Button b = sender as Button;
