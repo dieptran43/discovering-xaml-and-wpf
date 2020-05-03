@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorApp", "Calculator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasketballRosterNew", "BasketballRosterNew\BasketballRosterNew.csproj", "{F956454D-B4FA-4DFA-8F7F-126218222EF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalTreesInterface", "LogicalTreesInterface\LogicalTreesInterface.csproj", "{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalTreesInterface", "LogicalTreesInterface\LogicalTreesInterface.csproj", "{6743CCF2-C25E-4DD2-8FA2-81CEEB6BEB3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AligmentOfButtons", "AligmentOfButtons\AligmentOfButtons.csproj", "{27BFD816-2C2A-416E-9F77-6066EFAE59FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AligmentOfButtons", "AligmentOfButtons\AligmentOfButtons.csproj", "{27BFD816-2C2A-416E-9F77-6066EFAE59FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutWithPanels", "LayoutWithPanels\LayoutWithPanels.csproj", "{6E71E88F-93C1-420E-8AF9-6310B1F7880E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayoutWithPanels", "LayoutWithPanels\LayoutWithPanels.csproj", "{6E71E88F-93C1-420E-8AF9-6310B1F7880E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirdLayout", "GirdLayout\GirdLayout.csproj", "{3CF25A07-27F2-4121-A993-16484C1D93FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GirdLayout", "GirdLayout\GirdLayout.csproj", "{3CF25A07-27F2-4121-A993-16484C1D93FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioAsPanel", "VisualStudioAsPanel\VisualStudioAsPanel.csproj", "{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualStudioAsPanel", "VisualStudioAsPanel\VisualStudioAsPanel.csproj", "{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinThePrizeWheel", "SpinThePrizeWheel\SpinThePrizeWheel.csproj", "{328FAE1E-858A-4BB6-BC12-A87205120299}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328FAE1E-858A-4BB6-BC12-A87205120299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328FAE1E-858A-4BB6-BC12-A87205120299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328FAE1E-858A-4BB6-BC12-A87205120299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328FAE1E-858A-4BB6-BC12-A87205120299}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
