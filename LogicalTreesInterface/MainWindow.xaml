@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LogicalTreesInterface"
         mc:Ignorable="d"
+        ListBox.SelectionChanged="ListBox_SelectionChanged"
+        Button.Click ="Button_Click"
         Title="About WPF Guid" SizeToContent="WidthAndHeight"
         FontSize="30" FontStyle="Italic"
         Background="OrangeRed">
-    
+        
     <StackPanel>
         <Label FontWeight="Bold" FontSize="20" Foreground="White">
             WPF Guid
