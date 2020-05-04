@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpinThePrizeWheel", "SpinTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeNewContentOnWindow", "SomeNewContentOnWindow\SomeNewContentOnWindow.csproj", "{25E19BAD-2293-4878-A6E5-C44E04163591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{F50901C0-C3EB-44A8-9B1F-B799A109060B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{25E19BAD-2293-4878-A6E5-C44E04163591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E19BAD-2293-4878-A6E5-C44E04163591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E19BAD-2293-4878-A6E5-C44E04163591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50901C0-C3EB-44A8-9B1F-B799A109060B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50901C0-C3EB-44A8-9B1F-B799A109060B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50901C0-C3EB-44A8-9B1F-B799A109060B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50901C0-C3EB-44A8-9B1F-B799A109060B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
