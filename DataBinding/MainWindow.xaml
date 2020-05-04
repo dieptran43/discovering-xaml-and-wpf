@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DataGrid IsReadOnly="True"
+              Name ="dataGrid"
+              AutoGenerateColumns="False"
         xmlns:local="clr-namespace:DataBinding"
         xmlns:sys="clr-namespace:System;assembly=mscorlib">
         <DataGrid.Resources>
@@ -21,14 +23,10 @@
             <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}"/>
             <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}"/>
             <DataGridTextColumn Header="Website" Binding="{Binding WebSite}"/>
-            <DataGridTextColumn Header="Billionaire?" 
+            <DataGridCheckBoxColumn Header="Billionaire?" 
                                 Binding="{Binding IsBillionaire}"/>
             <DataGridComboBoxColumn Header="Gender" SelectedItemBinding="{Binding Gender}"
                                ItemsSource="{Binding Source={StaticResource genderEnum}}"/>
         </DataGrid.Columns>
-        <local:Record FirstName="Luka" LastName="Radovanovic"
-                      WebSite="http://lrdlm97.net" Gender="Male"/>
-        <local:Record FirstName="Pera" LastName="Radovanovic"
-                      WebSite="http://google.com" Gender="Male" IsBillionaire="True"/>
-    </DataGrid>
+       </DataGrid>
 </Window>

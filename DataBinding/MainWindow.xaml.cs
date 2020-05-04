@@ -23,6 +23,11 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
+            dataGrid.ItemsSource = new List<Record>( new Record[]
+            {
+                new Record{FirstName="Luka",LastName="Radovanovic",WebSite=new Uri("http://lr120.com"),Gender=Gender.Male },
+                new Record{FirstName="Perka",LastName="Peranovic",WebSite=new Uri("http://perka.com"),Gender=Gender.Female }
+            });
         }
     }
 }
