@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SomeNewContentOnWindow"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -49,5 +50,55 @@
                 <CheckBox>Lazio</CheckBox>
             </StackPanel>
         </Expander>
+        <ComboBox Grid.Row="2" IsEditable="True">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Image Source="firstItem.jpg"/>
+                <StackPanel Width="200">
+                    <TextBlock Margin="5,0" FontSize="14" FontWeight="Bold"
+                               VerticalAlignment="Center">Curtain Call</TextBlock>
+                    <TextBlock Margin="5" VerticalAlignment="Center" TextWrapping="Wrap">
+                        Whimsical, with a red curtain background that represents a stage.
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Image Source="secoundItem.jpg"/>
+                <StackPanel Width="200">
+                    <TextBlock Margin="5,0" FontSize="14" FontWeight="Bold"
+                               VerticalAlignment="Center">Fireworks</TextBlock>
+                    <TextBlock Margin="5" VerticalAlignment="Center" TextWrapping="Wrap">
+                      Sleek, with a black sky containing fireworks. When you need to
+                        celebrate PowerPoint-style, this design is for you!
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </ComboBox>
+        <ListView Grid.Column="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Date"/>
+                    <GridViewColumn Header="Day of Week"
+                                    DisplayMemberBinding="{Binding DayOfWeek}"/>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Year}"/>
+                </GridView>
+            </ListView.View>
+            <sys:DateTime>1/1/2018</sys:DateTime>
+            <sys:DateTime>11/1/2020</sys:DateTime>
+            <sys:DateTime>10/1/2019</sys:DateTime>
+        </ListView>
+        <StackPanel Grid.Row="1">
+            <RadioButton GroupName="Team">Red Star</RadioButton>
+            <RadioButton GroupName="Team">Totenham</RadioButton>
+        </StackPanel>
+        <TabControl Grid.Row="2" Grid.Column="1">
+            <TabItem Header="Teams">Content for tab 1.</TabItem>
+            <TabItem Header="Players">
+                <StackPanel>
+                    <RadioButton GroupName="Team">Red Star</RadioButton>
+                    <RadioButton GroupName="Team">Totenham</RadioButton>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Refeers">Content for tab 3.</TabItem>
+        </TabControl>
     </Grid>
 </Window>
