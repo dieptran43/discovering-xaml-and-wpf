@@ -1,0 +1,53 @@
+﻿<Window x:Class="SomeNewContentOnWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SomeNewContentOnWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="2" Grid.Row="2" FontSize="100" Foreground="White" Background="DarkCyan">
+            <Button.ToolTip>
+                Click button fore more discovering.
+            </Button.ToolTip>
+            OK
+        </Button>
+        <CheckBox>
+            Some checkbox on form.
+            <CheckBox.ToolTip>
+                <StackPanel>
+                    <Label Background="Blue" Foreground="White" FontFamily="Bold">
+                        The CheckBox
+                    </Label>
+                    <TextBlock Padding="10" Width="200" TextWrapping="WrapWithOverflow">
+                        Some text that give more info for checkbox element in wpf.
+                    </TextBlock>
+                    <Line Stroke="Black" StrokeThickness="1" X2="200"/>
+                    <StackPanel Orientation="Horizontal">
+                        
+                        <Label FontWeight="Bold">Press F1 for more help.</Label>
+                    </StackPanel>
+
+                </StackPanel>
+            </CheckBox.ToolTip>
+        </CheckBox>
+        <Expander Header="Grammar" Grid.Column="1" Grid.Row="1">
+            <StackPanel>
+                <CheckBox>AC Milan</CheckBox>
+                <CheckBox>Rome</CheckBox>
+                <CheckBox>Lazio</CheckBox>
+            </StackPanel>
+        </Expander>
+    </Grid>
+</Window>

@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GirdLayout", "GirdLayout\Gi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualStudioAsPanel", "VisualStudioAsPanel\VisualStudioAsPanel.csproj", "{63704B7E-30DA-4DB9-8E55-690FCFEABD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinThePrizeWheel", "SpinThePrizeWheel\SpinThePrizeWheel.csproj", "{328FAE1E-858A-4BB6-BC12-A87205120299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpinThePrizeWheel", "SpinThePrizeWheel\SpinThePrizeWheel.csproj", "{328FAE1E-858A-4BB6-BC12-A87205120299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeNewContentOnWindow", "SomeNewContentOnWindow\SomeNewContentOnWindow.csproj", "{25E19BAD-2293-4878-A6E5-C44E04163591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{328FAE1E-858A-4BB6-BC12-A87205120299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328FAE1E-858A-4BB6-BC12-A87205120299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{328FAE1E-858A-4BB6-BC12-A87205120299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E19BAD-2293-4878-A6E5-C44E04163591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E19BAD-2293-4878-A6E5-C44E04163591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E19BAD-2293-4878-A6E5-C44E04163591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E19BAD-2293-4878-A6E5-C44E04163591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
